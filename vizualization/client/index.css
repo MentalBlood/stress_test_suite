@@ -1,0 +1,94 @@
+.Watcher {
+	display: flex;
+	flex-direction: column;
+
+	padding: 2vw;
+
+	background-color: #555;
+	border-radius: 1vw;
+}
+
+.Watcher > div:not(:first-child) {
+	margin-top: 2vw;
+}
+
+.saveLoadButtons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.saveLoadButtons button {
+	height: 4vh;
+	width: 4vw;
+
+	padding: 0;
+	border: none;
+	border-radius: 1vw;
+
+	font-size: 2vh;
+
+	color: white;
+}
+
+.saveButton {
+	background-color: #363;
+}
+
+.loadButton {
+	background-color: #336;
+}
+
+.WatcherElements {
+}
+
+.WatcherElements > div:not(:first-child) {
+	margin-top: 2vw;
+}
+
+.WatcherElement {
+	display: flex;
+	flex-direction: column;
+
+	background-color: #222;
+	border-radius: 1vw;
+}
+
+.BarElement {
+	display: flex;
+	background-color: #333;
+
+	border-radius: 1vw;
+}
+
+.BarDescription {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: #c80;
+}
+
+.BarDescription > div:last-child {
+	margin-right: 8%;
+}
+
+.Bar {
+	display: flex;
+	background-color: black;
+
+	border-radius: 1vw;
+}
+
+.BarPercents {
+	position: absolute;
+	text-align: center;
+
+	color: white;
+}
+
+.BarMoving {
+	clear: both;
+	background-color: #c80;
+
+	border-radius: 1vw;
+}
